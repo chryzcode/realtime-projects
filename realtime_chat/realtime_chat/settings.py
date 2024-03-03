@@ -48,6 +48,7 @@ CHANNEL_LAYERS = {
 INSTALLED_APPS = [
 
     #install daphane instead of channels. Put it first on the list
+    #what does not make asgi run on server sometimes after configurations is the channels/ daphane/ django version
     'daphne',
 
     'django.contrib.admin',
