@@ -21,3 +21,4 @@ def create_room(request, uuid):
     Room.objects.create(uuid=uuid, client=name, url=url)
 
     return JsonResponse({'message': 'room created'})
+
