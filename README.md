@@ -11,5 +11,17 @@
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
 ### For deployment
+# Run on WSL or Linux(Ubuntu)
+
+- Update and install redis
+  sudo apt-get update
+  sudo apt-get install redis
+
+- Start redis server
+sudo service redis-server start
+
+- Connect to redis
+redis-cli 
+
 - https://abhiraj97.medium.com/django-channels-and-its-production-deployment-ae3fc07ab5f6
 - https://channels.readthedocs.io/en/latest/deploying.html

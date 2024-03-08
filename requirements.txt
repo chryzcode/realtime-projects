@@ -1,9 +1,11 @@
 asgiref==3.6.0
+async-timeout==4.0.3
 attrs==23.1.0
 autobahn==23.1.2
 Automat==22.10.0
 cffi==1.15.1
 channels==4.0.0
+channels-redis==4.2.0
 constantly==15.1.0
 cryptography==40.0.2
 daphne==4.0.0
@@ -11,10 +13,12 @@ Django==4.2.1
 hyperlink==21.0.0
 idna==3.4
 incremental==22.10.0
+msgpack==1.0.8
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycparser==2.21
 pyOpenSSL==23.1.1
+redis==5.0.2
 service-identity==21.1.0
 six==1.16.0
 sqlparse==0.4.4
