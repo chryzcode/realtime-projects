@@ -26,16 +26,14 @@ SECRET_KEY = 'django-insecure-%v$gh67imza=0$i%pky!jxpk*@%t+x-w$lw5lmwbvj)+#p=r#g
 DEBUG = False
 
 #the host and server address
-ALLOWED_HOSTS = ['jatte.com', '64.226.118.249']
+ALLOWED_HOSTS = []
 
 #for websocket
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
 AUTH_USER_MODEL = 'account.User'
 
-LOGIN_URL = '/login/'
-LOGIN_REDIRECT_URL = '/chat-admin/'
-LOGOUT_REDIRECT_URL = '/'
+
 
 
 # Use Redis for this config 

@@ -30,10 +30,6 @@ ALLOWED_HOSTS = ['http://127.0.0.1', 'http://localhost', '127.0.0.1',]
 
 AUTH_USER_MODEL = 'account.User'
 
-LOGIN_URL = '/login/'
-LOGIN_REDIRECT_URL = '/chat-admin/'
-LOGOUT_REDIRECT_URL = '/'
-
 
 #config for realtime
 
